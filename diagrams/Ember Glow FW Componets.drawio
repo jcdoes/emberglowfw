@@ -1,0 +1,116 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="Page-1" id="zxQehnslAlcvhCmz-SPg">
+    <mxGraphModel dx="2537" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-1" value="Presentation Layer" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="424" y="60" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-2" value="Ember Glow FW Components" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-4" value="REST API Layer" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="424" y="300" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-13" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;width=3.3333333333333335;endSize=3.6666666666666665;endWidth=8.222222222222223;startWidth=8.222222222222223;startSize=3.6666666666666665;fillColor=#FFFFFF;" edge="1" parent="1" source="YZn6iQOhVY7EgrHkFrpb-5" target="YZn6iQOhVY7EgrHkFrpb-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="514" y="530" as="sourcePoint" />
+            <mxPoint x="614" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/FastAPI_logo.svg/2560px-FastAPI_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="434" y="310" width="162.14" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-16" value="&lt;ul&gt;&lt;li&gt;UI Endpoints&lt;/li&gt;&lt;li&gt;Firewall Import Functions&lt;/li&gt;&lt;li&gt;Programmic Access&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="350" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-23" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=5.066666666666666;endSize=5.4159999999999995;endWidth=5.511111111111111;fillColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YZn6iQOhVY7EgrHkFrpb-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="749" y="363" as="sourcePoint" />
+            <mxPoint x="674" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="780" y="300" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YZn6iQOhVY7EgrHkFrpb-29">
+          <mxGeometry width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-20" value="Defines how to connect to a firewall API to pull and push data.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YZn6iQOhVY7EgrHkFrpb-29">
+          <mxGeometry x="19" y="45" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.prod.website-files.com/601064f495f4b4967f921aa9/61a5bc776ed962841b2af833_json-logo.png;imageBackground=#FFFFFF;" vertex="1" parent="YZn6iQOhVY7EgrHkFrpb-29">
+          <mxGeometry x="14" y="10" width="27.64166666666667" height="27.64166666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-5" value="Database Layer" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="424" y="540" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="434" y="550" width="104.74" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-8" value="&lt;ul&gt;&lt;li&gt;Firewall Object (Network &amp;amp; Ports)&lt;/li&gt;&lt;li&gt;Firewall Rules&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="434" y="600" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-30" value="Injested in directory" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="780" y="240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-31" value="" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;elbow=vertical;curved=1;" edge="1" target="YZn6iQOhVY7EgrHkFrpb-30" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="730" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-32" value="Firewalls" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-33" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;width=3.3333333333333335;endSize=3.6666666666666665;endWidth=8.222222222222223;startWidth=8.222222222222223;startSize=3.6666666666666665;fillColor=#FFFFFF;" edge="1" parent="1" source="YZn6iQOhVY7EgrHkFrpb-4" target="YZn6iQOhVY7EgrHkFrpb-32">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="300" y="460" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-34" value="&lt;ul&gt;&lt;li&gt;Get firewall objects with prefix&lt;/li&gt;&lt;li&gt;Validate rules exist&lt;/li&gt;&lt;li&gt;Push rules with uniqe convention&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="370" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-37" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.netexpertsolutions.com/wp-content/uploads/2024/06/logo-firepower.jpg;" vertex="1" parent="1">
+          <mxGeometry x="60" y="312" width="38" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-44" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.exclusive-networks.com/se/wp-content/uploads/sites/25/2021/05/300x200_PaloAltoNetworks_Logo_WhiteonRed.jpg;" vertex="1" parent="1">
+          <mxGeometry x="110" y="317" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-45" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.webopedia.com/wp-content/uploads/2022/02/Webo.Fortinet.png;" vertex="1" parent="1">
+          <mxGeometry x="170" y="312" width="39.6" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-46" value="&lt;b&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;+&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="316" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-48" value="REST API Calls" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="115" y="465" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-49" value="" style="edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" target="YZn6iQOhVY7EgrHkFrpb-48" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-54" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://1000logos.net/wp-content/uploads/2020/08/Django-Logo.png;" vertex="1" parent="1">
+          <mxGeometry x="434" y="60" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-55" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;width=3.3333333333333335;endSize=3.6666666666666665;endWidth=8.222222222222223;startWidth=8.222222222222223;startSize=3.6666666666666665;fillColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="548.5799999999999" y="300" as="sourcePoint" />
+            <mxPoint x="548.5799999999999" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZn6iQOhVY7EgrHkFrpb-56" value="&lt;ul&gt;&lt;li&gt;Rule requests&lt;/li&gt;&lt;li&gt;Validation and approval&lt;/li&gt;&lt;li&gt;Reporting&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="120" width="230" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

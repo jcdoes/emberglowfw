@@ -1,0 +1,27 @@
+{
+    "plugin_name": "Cisco FTD",
+    "name_max_size": 128,
+    "description_field": "",
+    "tags_field": "",
+    "comments_field": "",
+    "api_baseurl": "/api/fdm",
+    "api_objectsurl": "/v6/object/networks",
+    "api_authurl": "/latest/fdm/token",
+    "api_basic_username": "",
+    "api_basic_password": "",
+    "api_bearer_token": "",
+    "api_body_request_login": { 
+        "grant_type": "password", 
+        "username": "admin", 
+        "password": "admin123"
+    },
+    "results_template": {
+        "items": []
+    },
+    "object_type_fields": {
+        "NETWORK": "value",
+        "HOST": "value",
+        "FQDN": "value",
+        "RANGE": "value"
+    }
+}

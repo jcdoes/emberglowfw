@@ -1,0 +1,29 @@
+{
+    "plugin_name": "Fortinet",
+    "name_max_size": 34,
+    "description_field": "",
+    "tags_field": "",
+    "comments_field": "comments",
+    "api_baseurl": "/api/v2",
+    "api_objectsurl": "/cmdb/firewall/address",
+    "api_authurl": "",
+    "api_basic_username": "",
+    "api_basic_password": "",
+    "api_bearer_token": "",
+    "api_body_request_login": {},
+    "results_template": {
+        "results": [
+            {
+                "name": "value"
+            }
+        ]
+    },
+    "object_type_fields": {
+        "ipmask": "subnet",
+        "iprange": [ 
+            "start-ip",
+            "end-ip"
+        ],
+        "fqdn": "fqdn"
+    }
+}

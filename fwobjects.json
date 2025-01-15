@@ -1,0 +1,72 @@
+{
+    "host_objs": {
+        "SS_DNS_Primary": "10.23.3.4",
+        "SS_AD_Server": "10.23.0.20",
+        "SS_EdgeFW_ClusterIP": "10.23.0.1",
+        "SS_Bootserver": "10.23.0.13",
+        "SS_CodeServer": "10.23.0.7"
+        },
+    "network_objs": {
+        "SS_Lab_Supernet": "10.23.0.0/23",
+        "SS_Lab_Servers_Subnet": "10.23.0.0/26",
+        "SS_Lab_Mgmt_Subnet": "10.23.0.64/26",
+        "SS_Lab_IoT_Subnet": "10.23.0.128/26",
+        "SS_Lab_PrWi_Subnet": "10.23.0.192/26",
+        "SS_Lab_Sec_Subnet": "10.23.1.0/26",
+        "SS_Lab_Test_Subnet": "10.23.1.32/27",
+        "SS_Lab_Data_Subnet": "10.23.1.64/27",
+        "SS_Lab_FWMgmt_Subnet": "10.23.1.96/27",
+        "SS_Lab_FWExt_Subnet": "10.23.1.128/27",
+        "SS_Lab_FWEInt_Subnet": "10.23.1.144/28",
+        "SS_Lab_Retro_Subnet": "10.23.1.160/27",
+        "SS_Lab_VPN_Subnet": "10.23.1.192/29",
+        "SS_Lab_HA_Subnet": "10.23.1.216/29",
+        "SS_Lab_WanTrans_Subnet": "10.23.2.0/29",
+        "SS_Lab_DMZ_Subnet": "10.23.2.32/29",
+        "SS_Lab_K8s_Subnet": "10.23.3.0/24"
+            
+    },
+    "fqdn_objs": {
+        "SS_FQ_AD_Server": "pz-hyperdc.ad.emberglow.lab",
+        "SS_FQ_Boot_Server": "boot-server.emberglow.lab",
+        "SS_FQ_Code_Server": "pz-code.emberglow.lab",
+        "SS_FQ_Vault_Server": "vault.emberglow.lab",
+        "SS_FQ_Gitlab_Server": "pz-gitlab.emberglow.lab",
+        "SS_FQ_Arts_Server": "pz-nexus.emberglow.lab"
+    },
+    "addr_groups": {
+        "SS_DevOps": {
+            "type": "GROUP",
+            "value": [
+                    "SS_FQ_Code_Server",
+                    "SS_FQ_Gitlab_Server",
+                    "SS_FQ_Arts_Server"
+                ]
+            }
+    },
+    "ports": {
+        "SS_HTTP": {
+            "type": "TCP",
+            "value": "80"
+        },
+        "SS_HTTPS": {
+            "type": "TCP",
+            "value": "443"
+        },
+        "SS_DNS": {
+            "type": "UDP",
+            "value": "53"
+        },
+        "SS_PING": {
+            "type": "ICMP",
+            "value": "[Any]"
+        },
+        "SS_Web_Ports": {
+            "type": "GROUP",
+            "value": [
+                "SS_HTTP",
+                "SS_HTTPS"
+            ]
+        }
+    }
+}

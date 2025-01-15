@@ -1,0 +1,12 @@
+body { background-color:seagreen;}
+
+.table_container { padding: 20px;}
+.table_back { background-color:white; }
+
+.editable {
+    cursor: pointer;
+    border-bottom: 1px dashed blue;
+}
+.editable:hover {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% load render_table from django_tables2 %}
+
+{% block page_content %}
+<div class="table_container">
+    <div class="table_back">
+        {% render_table table %}
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--<script src="{% static 'js/rule_view.js' %}"></script>-->
+{% endblock %}

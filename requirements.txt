@@ -1,0 +1,6 @@
+django == 5.1.4
+fastapi == 0.115.6
+requests == 2.32.3
+redis == 5.2.1
+django-select2 == 8.2.3
+django-tables2 == 2.7.5
